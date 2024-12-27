@@ -6,10 +6,10 @@ import 'dart:convert';
 import '../models/user.dart';
 
 class UserApi {
-  static String server = 'localhost:3000';
+  static String server = 'dev1.sebastiaandaniels.com';
 
   static Future<List<User>> fetchUsers() async {
-    var url = Uri.http(server, '/users');
+    var url = Uri.https(server, '/users');
 
     final response = await http.get(url);
 

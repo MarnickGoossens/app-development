@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../apis/api.dart';
 import '../models/user.dart';
+import 'user_detail.dart';
 
 class InlogPage extends StatefulWidget {
   const InlogPage({super.key});
@@ -58,9 +59,21 @@ class _InlogPageState extends State {
             title: Text(userList[position].name),
             subtitle:
                 Text("Glasses scanned: ${userList[position].glasses.length}"),
+            onTap: () {
+              _navigateToDetail(userList[position].id);
+            },
           ),
         );
       },
     );
+  }
+
+  void _navigateToDetail(int id) async {
+    await Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => UserDetailPage(id: id)),
+    );
+
+    _getUsers();
   }
 }
