@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Marnick",
+      "glasses": [1, 2]
+    },
+    {
+      "id": 2,
+      "name": "Sebastiaan",
+      "glasses": [3, 4]
+    }
+  ],
+
+  "glasses": [
+    {
+      "id": 1,
+      "company": "Duvel",
+      "description": "standard"
+    },
+    {
+      "id": 2,
+      "company": "Heineken",
+      "description": "standard"
+    },
+    {
+      "id": 3,
+      "company": "Brouwerij Westmalle",
+      "description": "standard"
+    },
+    {
+      "id": 4,
+      "company": "Stella Artois",
+      "description": "standard"
+    }
+  ]
+}
