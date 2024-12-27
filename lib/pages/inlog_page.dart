@@ -56,7 +56,8 @@ class _InlogPageState extends State {
               child: Text(userList[position].name.substring(0, 2)),
             ),
             title: Text(userList[position].name),
-            subtitle: const Text("subtitle"),
+            subtitle:
+                Text("Glasses scanned: ${userList[position].glasses.length}"),
           ),
         );
       },
