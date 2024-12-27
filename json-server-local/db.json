@@ -6,18 +6,31 @@
       "glasses": [
         {
           "id": 1,
-          "rating": 4
+          "rating": 0
         },
         {
           "id": 2,
-          "rating": 5
+          "rating": 0
+        },
+        {
+          "id": 5,
+          "rating": 3
         }
       ]
     },
     {
       "id": 2,
       "name": "Sebastiaan",
-      "glasses": [3, 4]
+      "glasses": [
+        {
+          "id": 3,
+          "rating": 4
+        },
+        {
+          "id": 4,
+          "rating": 5
+        }
+      ]
     }
   ],
 
@@ -25,22 +38,37 @@
     {
       "id": 1,
       "company": "Duvel",
-      "description": "standard"
+      "glassType": "standard",
+      "year": 1871,
+      "description": "Sinds De geschiedenis van Duvel Moortgat is er een van respect voor traditie en familiewaarden. Vandaag waakt de vierde generatie van de familie Moortgat over de erfenis van stichter Jan-Leonard Moortgat en zijn twee zonen Albert en Victor."
     },
     {
       "id": 2,
       "company": "Heineken",
-      "description": "standard"
+      "glassType": "standard",
+      "year": 1873,
+      "description": "Heineken Lager Beer (Dutch: Heineken Pilsener), or simply Heineken, is a Dutch pale lager beer with 5% alcohol by volume produced by the Dutch brewing company Heineken N.V. Heineken beer is sold in a green bottle with a red star."
     },
     {
       "id": 3,
-      "company": "Brouwerij Westmalle",
-      "description": "standard"
+      "company": "Westmalle",
+      "glassType": "standard",
+      "year": 1836,
+      "description": "Westmalle Brewery (Brouwerij der Trappisten van Westmalle) is a Trappist brewery in the Westmalle Abbey, Belgium. It produces three beers, designated as Trappist beer by the International Trappist Association. Westmalle Tripel is credited with being the first golden strong pale ale to use the term Tripel."
     },
     {
       "id": 4,
       "company": "Stella Artois",
-      "description": "standard"
+      "glassType": "standard",
+      "year": 1366,
+      "description": "Stella Artois is a pilsner beer, first brewed in 1926 by Brouwerij Artois in Leuven, Belgium. In its original form, the beer is 5.2 per cent ABV, the country's standard for pilsners. The beer is also sold in other countries including the UK, Ireland, Canada and Australia, where it has a reduced ABV. Stella Artois is owned by Interbrew International B.V. which is a subsidiary of the world's largest brewer, Anheuser-Busch InBev SA/NV"
+    },
+    {
+      "id": 5,
+      "company": "Jupiler",
+      "glassType": "standard",
+      "year": 1966,
+      "description": "Jupiler is a Belgian beer introduced in 1966, now brewed by Anheuser-Busch InBev at Piedboeuf Brewery in the Jupille-sur-Meuse neighbourhood of Liège. Jupiler is the highest selling beer in Belgium, with around 40 percent share by volume."
     }
   ]
 }
