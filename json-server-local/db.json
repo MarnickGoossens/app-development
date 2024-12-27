@@ -3,7 +3,16 @@
     {
       "id": 1,
       "name": "Marnick",
-      "glasses": [1, 2]
+      "glasses": [
+        {
+          "id": 1,
+          "rating": 4
+        },
+        {
+          "id": 2,
+          "rating": 5
+        }
+      ]
     },
     {
       "id": 2,
