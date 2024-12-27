@@ -43,14 +43,14 @@ together with the rating they gave to it.
 
 ## TODO
 
-[] 1) Json server aanmaken
-[] 2) Extra info per glas uitbreiden buiten description (History van het bedrijf & glas)
-[] 3) User-rating toevoegen aan json-server
-[] 4) Inlog aanmaken. User geeft naam in, app haalt dan de gescande glazen uit API. user-id word lokaal opgeslagen om nieuwe glazen toe te kunnen voegen
-[] 5) "Mijn glazen" knop toevoegen: User kan al zijn glazen zien en de details bekijken
-[] 6) Knop "Uitloggen" toevoegen: De lokale user-id word gereset
-[] 7) Rating-functionaliteit toevoegen. De gebruiker kan een rating met sterretjes (1-5) toevoegen aan een glas
-[] 8) Op een of andere manier een recogniser maken. Wanneer je een bierglas scant moet deze gekoppeld kunnen worden aan een glas uit de API.
-[] 9) Volledige koppeling in de app maken: Laat users een glas scannen, App haalt glas uit API en toont gegevens.
-[] 10) Glas-tracking toevoegen. De gegevens komen naast het glas te staan ipv op een ander scherm (Gelijk bij pokemon go enzo)
-[] 11) Knop "Opslaan" toevoegen. Na het scannen van een glas kan de user het opslaan -> id vn glas toevoegen aan user
+1) Json server aanmaken
+2) Extra info per glas uitbreiden buiten description (History van het bedrijf & glas)
+3) User-rating toevoegen aan json-server
+4) Inlog aanmaken. User geeft naam in, app haalt dan de gescande glazen uit API. user-id word lokaal opgeslagen om nieuwe glazen toe te kunnen voegen
+5) "Mijn glazen" knop toevoegen: User kan al zijn glazen zien en de details bekijken
+6) Knop "Uitloggen" toevoegen: De lokale user-id word gereset
+7) Rating-functionaliteit toevoegen. De gebruiker kan een rating met sterretjes (1-5) toevoegen aan een glas
+8) Op een of andere manier een recogniser maken. Wanneer je een bierglas scant moet deze gekoppeld kunnen worden aan een glas uit de API.
+9) Volledige koppeling in de app maken: Laat users een glas scannen, App haalt glas uit API en toont gegevens.
+10) Glas-tracking toevoegen. De gegevens komen naast het glas te staan ipv op een ander scherm (Gelijk bij pokemon go enzo)
+11) Knop "Opslaan" toevoegen. Na het scannen van een glas kan de user het opslaan -> id vn glas toevoegen aan user
